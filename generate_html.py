@@ -23,7 +23,7 @@ if sheet.max_row > 1:
   
  #Create HTML code
     html = "<html>\n<head>\n<link rel='stylesheet' type='text/css' href='styles.css'>\n</head>\n<body>\n"
-    html += "<h1>Random Movie Recommendation</h1>\n"
+    html += '<h1>Random Movie Recommendation</h1>\n';
     html += "<div class='container'>\n"
     html += f"<div class='movie-image'><img src='{image}' alt='Movie Poster'></div>\n"
     html += "<div class='movie-info'>\n"

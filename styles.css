@@ -8,11 +8,14 @@ body {
   align-items: center;
 }
 
-h1 {
-  margin-bottom: 10px;
-  text-shadow: 2px 2px 4px black;
-  flex: 1;
-}
+  h1 {
+    flex: 1;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px black;
+    font-size: 36px; /* Desired font size for the header */
+  }
 
 .container {
   display: flex;
@@ -46,22 +49,28 @@ h1 {
   font-size: 25px;
 }
 
-.try-again-button, .info-button {
+.try-again-button,
+.info-button {
   background-color: #6495ED;
   color: white;
   margin-top: 30px;
   border: none;
   cursor: pointer;
-  border-radius: 4px;
-  height: 60px;
-  width: 100px;
-  border-radius: 8px;
+  font-weight: bold;
+  border-radius: 30px; /* Adjust the border-radius for a rounded shape */
+  height: 40px;
+  width: 160px; /* Increase the width for better readability */
+  font-size: 16px; /* Adjust the font size to your preference */
+  transition: box-shadow 0.15s;
 }
+
 
 .info-button:hover {
   background-color: #36648B;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
 }
 
 .try-again-button:hover {
   background-color: #36648B;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
 }
